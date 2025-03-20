@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CFB4AC;
+}
+
+/* CSS untuk header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* CSS untuk selamat datang */
+.welcome {
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+/* CSS untuk kotak menu makanan */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add margin to create space from the navbar */
+}
+
+/* CSS untuk input pencarian */
+.search-box {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Media query untuk tampilan responsif */
+@media (max-width: 768px) {
+    .menu-box {
+        width: 100%;
+    }
+}
+.navbar {
+    position: relative; /* or fixed */
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+.navbar-toggler {
+    background-color: #000; 
+    border-color: #000;
+    color: #fff;
+}
+
+.container1 {
+    max-width: 800px;
+    margin-top: 80px;
+    margin-left: 20%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 5px;
+}
+
+.add-button {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background-color: #555;
+}
